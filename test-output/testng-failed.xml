@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Assertione.SoftAssertDemo">
+      <class name="Wait.MainWait">
         <methods>
-          <include name="testSof1t"/>
-          <include name="testHardAssert"/>
+          <include name="ExpWaiyt"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Assertione.SoftAssertDemo -->
+      </class> <!-- Wait.MainWait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
