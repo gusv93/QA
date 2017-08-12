@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20955" started-at="2017-08-09T18:58:01Z" finished-at="2017-08-09T18:58:22Z">
+  <suite name="Default suite" duration-ms="53380" started-at="2017-08-12T14:41:59Z" finished-at="2017-08-12T14:42:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20955" started-at="2017-08-09T18:58:01Z" finished-at="2017-08-09T18:58:22Z">
-      <class name="Wait.FluentWaitDemo">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Wait.FluentWaitDemo@68c4039c]" name="setUp" is-config="true" duration-ms="12303" started-at="2017-08-09T21:58:01Z" finished-at="2017-08-09T21:58:14Z">
+    <test name="Default test" duration-ms="53380" started-at="2017-08-12T14:41:59Z" finished-at="2017-08-12T14:42:52Z">
+      <class name="HandleMultipleWindows.HandelWindow3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:HandleMultipleWindows.HandelWindow3@26653222]" name="setUp" is-config="true" duration-ms="13661" started-at="2017-08-12T17:41:59Z" finished-at="2017-08-12T17:42:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="FlWait()[pri:0, instance:Wait.FluentWaitDemo@68c4039c]" name="FlWait" duration-ms="6879" started-at="2017-08-09T21:58:14Z" finished-at="2017-08-09T21:58:21Z">
+        <test-method status="PASS" signature="testHandelWindow()[pri:0, instance:HandleMultipleWindows.HandelWindow3@26653222]" name="testHandelWindow" duration-ms="38192" started-at="2017-08-12T17:42:13Z" finished-at="2017-08-12T17:42:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FlWait -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Wait.FluentWaitDemo@68c4039c]" name="tearDown" is-config="true" duration-ms="1717" started-at="2017-08-09T21:58:21Z" finished-at="2017-08-09T21:58:22Z">
+        </test-method> <!-- testHandelWindow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HandleMultipleWindows.HandelWindow3@26653222]" name="tearDown" is-config="true" duration-ms="1465" started-at="2017-08-12T17:42:51Z" finished-at="2017-08-12T17:42:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Wait.FluentWaitDemo -->
+      </class> <!-- HandleMultipleWindows.HandelWindow3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
